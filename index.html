@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Login-Form</h1>
+        <input id="uname" type="text" placeholder="User Name" />
+        <input id="email" type="email" placeholder="Email" />
+        <input id="pass" type="password" placeholder="Password" />
+        <input id="cpass" type="password" placeholder="Confirm Password" />
+        <input id="address" type="text" placeholder="Address" />
+        <input id="num" type="number" placeholder="Phone Number" />
+        <label for="gender">Gender:</label>
+        <select class="gene" name="gender" >
+          <option id="gen" value="Male">Male</option>
+          <option id="gen" value="Female">Female</option>
+        </select>
+        <input id="dob" type="date" placeholder="DOB" />
+        <input type="file" id="myimg">
+
+       <input onclick="sub()" type="submit" name="" value="Login">
+        <!-- <button onclick="sub()">Register</button> -->
+
+    </div>
+
+ 
+    <script src="app.js"></script>
+</body>
+</html>

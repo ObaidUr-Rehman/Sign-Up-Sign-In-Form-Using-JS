@@ -1,0 +1,106 @@
+/* #main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+padding: 2px 15px;
+
+} */
+body{
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    padding: 10px;
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+  }
+
+
+
+.info{
+    margin: 10px 10px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color:  #497BE8; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    cursor: pointer;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Gotham;
+    color: #171717;
+    display: block;
+    transition: 0.3s;
+    /* margin-top:10px; */
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+#main{
+    text-align: center;
+    margin-top: 200px;
+    text-decoration: underline;
+    background: #fff;
+    max-width: 500px;
+    width: 100%;
+    margin: 120px auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1)
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+h1{
+    text-align: center;
+margin-left:459px ;
+margin-top: 8px;
+}
